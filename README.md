@@ -1,6 +1,6 @@
-## AI Agents – Session 1
+## AI Agents 
 
-This repository contains code and examples from the first session of an online AI course. It demonstrates basic usage of language models with LangChain and OpenAI APIs.
+This repository contains code and examples from the AI Agents course for each session. 
 
 ### Project Structure
 
@@ -26,12 +26,14 @@ uv run session_1/openai/structured_outputs.py
 ```
 
 ---
-For learning and experimentation only.
-
----
 For .env files,
 1. Rename `.env.example` file to `.env`
 ```bash
 mv .env.example
 ```
 2. Replace `<gemini_api_key>` with your actual GEMINI API KEY.
+
+
+---
+For learning and experimentation only.
+
