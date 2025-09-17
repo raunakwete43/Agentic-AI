@@ -5,8 +5,8 @@ This repository contains code and examples from the first session of an online A
 ### Project Structure
 
 - `main.py` – Entry point (prints a hello message)
-- `session_1/langchain/` – LangChain-based LLM examples
-- `session_1/openai/` – OpenAI API usage examples
+- `session_{i}/langchain/` – LangChain-based LLM examples
+- `session_{i}/openai/` – OpenAI API usage examples
 
 ### Requirements
 
@@ -29,4 +29,9 @@ uv run session_1/openai/structured_outputs.py
 For learning and experimentation only.
 
 ---
-For .env files, replace `<gemini-api-key>` with your actual Gemini API key.
+For .env files,
+1. Rename `.env.example` file to `.env`
+```bash
+mv .env.example
+```
+2. Replace `<gemini_api_key>` with your actual GEMINI API KEY.
