@@ -1,0 +1,6 @@
+2025-09-20 18:04:26,169 - gantt_chart_agent - DEBUG - Called generate_gantt_chart Node
+2025-09-20 18:04:26,169 - gantt_chart_agent - DEBUG - Invoking LLM for project timeline.
+2025-09-20 18:04:35,942 - gantt_chart_agent - DEBUG - LLM responded successfully
+2025-09-20 18:04:35,942 - gantt_chart_agent - DEBUG - Called _generate_gantt_chart
+2025-09-20 18:04:35,952 - gantt_chart_agent - DEBUG - Geneating Gantt chart.
+2025-09-20 18:04:36,077 - gantt_chart_agent - INFO - Gantt chart saved to chart.png
